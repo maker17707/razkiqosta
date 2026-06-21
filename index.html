@@ -1,53 +1,52 @@
-!DOCTYPE html
-html lang=ru
-head
-    meta charset=UTF-8
-    meta name=viewport content=width=device-width, initial-scale=1.0
-    titleПереход в Telegram Ботаtitle
-    style
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переход в Telegram</title>
+    <style>
         body {
-            font-family -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-            background-color #f5f7fa;
-            display flex;
-            justify-content center;
-            align-items center;
-            height 100vh;
-            margin 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         .card {
-            background white;
-            padding 30px;
-            border-radius 20px;
-            box-shadow 0 10px 25px rgba(0,0,0,0.05);
-            text-align center;
-            max-width 340px;
-            width 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            text-align: center;
+            max-width: 340px;
+            width: 100%;
         }
-        h2 { color #333; margin-bottom 10px; }
-        p { color #666; font-size 14px; margin-bottom 25px; }
+        h2 { color: #333; margin-bottom: 10px; }
+        p { color: #666; font-size: 14px; margin-bottom: 25px; }
         .btn {
-            display block;
-            background-color #24A1DE;  Фирменный цвет Telegram 
-            color white;
-            text-decoration none;
-            padding 15px;
-            border-radius 12px;
-            font-weight bold;
-            font-size 16px;
-            transition background 0.3s;
+            display: block;
+            background-color: #24A1DE;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background 0.3s;
         }
-        .btnhover { background-color #1d8ed2; }
-    style
-head
-body
+        .btn:hover { background-color: #1d8ed2; }
+    </style>
+</head>
+<body>
 
-div class=card
-    h2Добро пожаловать!h2
-    pНажмите на кнопку ниже, чтобы мгновенно открыть Telegram-бота и начать работу.p
-    
-    !-- Используем диплинк tg, чтобы обойти внутренний браузер Instagram --
-    a href=tgresolvedomain=ИМЯ_ТВОЕГО_БОТА class=btnОткрыть Telegrama
-div
+<div class="card">
+    <h2>Добро пожаловать!</h2>
+    <p>Нажмите на кнопку ниже, чтобы мгновенно открыть Telegram и начать работу.</p>
+    <!-- Замени ТВОЙ_БОТ на имя своего бота -->
+    <a href="tg://resolve?domain=ТВОЙ_БОТ" class="btn">Открыть Telegram</a>
+</div>
 
-body
-html
+</body>
+</html>
